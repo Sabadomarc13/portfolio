@@ -22,9 +22,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex min-h-screen flex-row items-start justify-start max-w-6xl mx-auto pt-16`}
       >
-        <SideBar/>
-        {children}
-        <SocialsLinks/>
+        <SideBar />
+        <div className="pl-[200px]">{children}</div>
+        <SocialsLinks />
       </body>
     </html>
   );

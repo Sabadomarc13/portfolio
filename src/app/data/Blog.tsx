@@ -1,9 +1,9 @@
 // app/data/blogData.ts
 import blogImage from "@/../public/image.png"; // Adjust the path as necessary
-import blog1 from "@/../public/img2.avif"; 
-import blog2 from "@/../public/img2.avif"; 
-import blog3 from "@/../public/img2.avif"; 
-import blog4 from "@/../public/img2.avif"; 
+import blog1 from "@/../public/photos/week1.jpg"; 
+import blog2 from "@/../public/photos/week2.jpg"; 
+import blog3 from "@/../public/photos/week3.jpg"; 
+import blog4 from "@/../public/photos/week4.jpg"; 
 import blog5 from "@/../public/img2.avif"; 
 import { BlogPost } from "@/app/utils/types"; // Adjust the import path as necessary
 

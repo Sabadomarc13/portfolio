@@ -42,7 +42,7 @@ export const SideBar = () => {
     <>
       <nav
         ref={navRef}
-        className="p-10 flex flex-col gap-4 items-start w-auto "
+        className="p-10 flex flex-col gap-4 items-start w-auto fixed"
       >
         <div className="flex relative items-center justify-center">
           <div className="absolute -left-4 -top-0">
