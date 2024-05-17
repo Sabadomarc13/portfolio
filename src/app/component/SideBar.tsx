@@ -55,8 +55,8 @@ export const SideBar = () => {
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500"></span>
             </span>
           </div>
-          <div className="text-lg font-semibold mr-10 mb-8 text-nowrap text-[#f54343] ">
-            Marc Studio
+          <div className="text-2xl font-semibold mr-10 mb-8 text-nowrap text-[#f54343] ">
+            MS.
           </div>
         </div>
         {Navigation.map((item) => (
