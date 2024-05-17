@@ -5,7 +5,7 @@ import { SideBar } from "@/app/component/SideBar";
 export default function Home() {
   return (
     <div className="px-10 py-9 w-full">
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-8">
         <h1 className="font-semibold text-3xl">About</h1>
         <div className="flex gap-5 flex-col">
           <p className="text-justify indent-8">

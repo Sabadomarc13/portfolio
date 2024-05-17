@@ -23,7 +23,7 @@ export default function RootLayout({
         className={`${inter.className} flex min-h-screen flex-row items-start justify-start max-w-6xl mx-auto pt-16`}
       >
         <SideBar />
-        <div className="pl-[200px]">{children}</div>
+        <div className="pl-[200px] w-full">{children}</div>
         <SocialsLinks />
       </body>
     </html>
